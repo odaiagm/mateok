@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #fff; predeterminado, fondo viene blanco, letra viene negro. asi que si uso letra negra o fondo blanco, no hace falta cambiarlo */
+    color: #1C2112;
+    font-family: 'Figtree', sans-serif;
+    /* font-size: ; opcional, sino predeterminado para desktop seran 16px */
+}
+
+header {
+    display: flex;
+    width: 1100px;
+    height: 96px;
+    margin: auto;
+    background-color: #8DA460;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: #fff;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main {
+    width: 1100px;
+    min-height: 600px; 
+    margin: auto;
+}
+
+    #hero {
+        display: flex;
+        height: 450px;
+        margin-top: 56px;
+        background-image: url(../imgs/CC860227-31C1-4383-89C6-08C8A51BA9A8.jpg);
+        font-size: 40px;
+        color: #fff;
+        align-items: center;
+
+    }
+
+    #tipos-yerba {
+        height: 363px;
+        margin: 56px 0px;
+        background-color: hsl(78, 25%, 90%);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #tipos-yerba article {
+        width: 262px;
+        background-color: #fff;
+    }
+
+        #tipos-yerba h2 {
+            margin: 16px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        #tipos-yerba p {
+            margin: 16px;
+        }
+
+footer {
+    width: 1100px;
+    height: 144px;
+    margin: auto;
+    background-color: #627341;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div img {
+    margin: 12px;
+    filter: invert();
+}
